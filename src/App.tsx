@@ -1,9 +1,10 @@
 import './App.css'
+import SignIn from './pages/SignIn'
 
 function App() {
   return (
-    <div>
-      <h1>Dashboard</h1>
+    <div className="h-screen w-full">
+      <SignIn />
     </div>
   )
 }
