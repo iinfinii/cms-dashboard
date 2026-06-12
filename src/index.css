@@ -135,4 +135,14 @@
   Label {
     @apply my-2;
   }
+
+  a {
+    color: var(--href);
+    @apply transition-colors duration-200;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    @apply brightness-110;
+  }
 }
